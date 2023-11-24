@@ -26,39 +26,40 @@
                   Note -> here when an object is created for class student then constructor automatically sets the value 
                           of age as 0
 
-Types of constrcutor
+
+  Types of constrcutor
+
 
  1-Default constructor
                           -->  A constructor with no parameters is known as a default constructor
                           -->Note: If we have not defined a constructor in our class, then the C++ compiler will 
                                    automatically create a default constructor with an empty code and no parameters.
 
-                          // C++ program to demonstrate the use of default constructor
-
-                    #include <iostream>
-                  using namespace std;
-
-                  // declare a class
-                 class  Wall {
-                  private:
-                 double length;
-
-                    public:
-                  // default constructor to initialize variable
-                     Wall() {
-                  length = 5.5;
-                  cout << "Creating a wall." << endl;
-                   cout << "Length = " << length << endl;
-                       }
-                      };
-
-                 int main() {
-                  Wall wall1;
-                  return 0;
-                      }
+                         for example
+                          class student {
+                             public:
+                             int age;
+                             student(){
+                             age=0
+                             }
+                             void show(){
+                             cout<<"age is "<<age;
+                             }
+                             };
+                             int main(){
+                             student x;
+                             x.show();
+                             return 0;
+                             }
+                             
+                             output is
+                             age is 0;
+                         
 
 2-Parameterized Constructor
                              -->In C++, a constructor with parameters is known as a parameterized constructor.
+
+  -->It is used to initialize the various data elements of different objects with different values when they are created.
 
                              for example 
                              class student {
