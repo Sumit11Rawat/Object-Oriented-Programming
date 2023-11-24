@@ -27,8 +27,8 @@
                             member functions
                             }
 
-Acess modifiers 
-                 Access Modifiers or Access Specifiers in a class are used to assign the accessibility to the class members, i.e., they set some restrictions on 
+Acess modifiers--> 
+                  Access Specifiers in a class are used to assign the accessibility to the class members, i.e., they set some restrictions on 
                  the class members so that they can’t be directly accessed by the outside functions.
 
                  
