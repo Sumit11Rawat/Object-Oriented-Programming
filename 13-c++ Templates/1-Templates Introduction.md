@@ -24,7 +24,8 @@ Function Template
     type values.
 --> A Generic function is created by using the keyword template. The template defines what function will do.
 
-                          for example                        template < class Ttype> ret_type func_name(parameter_list)  
+                          for example                    
+                          template < class Ttype> ret_type func_name(parameter_list)  
                                                              {  
                                                              // body of function.  
                                                               }  
