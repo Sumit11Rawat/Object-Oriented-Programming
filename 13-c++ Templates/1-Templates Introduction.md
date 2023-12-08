@@ -57,7 +57,6 @@ Function Template
                               return 0;  
                               }
 
-                              output of above code is
                               output of above code is 
                             Addition of i and j is :5
                             Addition of m and n is :3.5
