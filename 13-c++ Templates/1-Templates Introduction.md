@@ -1,4 +1,4 @@
- C+++ Templates
+ C++ Templates
  
 
 --> A C++ template is a powerful feature added to C++. It allows you to define the generic classes and generic functions and thus provides support for generic 
@@ -28,11 +28,12 @@ Function Template
                                                              {  
                                                              // body of function.  
                                                               }  
-                                        -->Where Ttype: It is a placeholder name for a data type used by the function. It is used within the function definition. It 
-                                           is only a placeholder that the compiler will automatically replace this placeholder with the actual data type.   
+                                                              
+                           -->Where Ttype: It is a placeholder name for a data type used by the function. It is used within the function definition. It 
+                                is only a placeholder that the compiler will automatically replace this placeholder with the actual data type.   
 
 
-                          code to add two no using template
+                         for example  code to add two no using template
                           
                           #include <iostream>  
                             #include <iostream>  
@@ -59,3 +60,92 @@ Function Template
                                cout<<"Addition of m and n is :"<<add(m,n);  
                               return 0;  
                               }
+
+Class Templates
+
+-->> Class templates like function templates, class templates are useful when a class defines something that is independent of the data type.
+
+--> When a class uses the concept of Template, then the class is known as generic class.
+
+                         syntax  template<class Ttype>  
+                                 class class_name  
+                                  {  
+                                    .  
+                                    .  
+                                  }
+
+                                  Now, we create an instance of a class
+
+                                  class_name<type> ob;
+                                  
+                                  where class_name: It is the name of the class.
+                                  type: It is the type of the data that the class is operating on.
+                                  ob: It is the name of the object.
+
+
+                        for example
+                        #include <iostream>  
+                        using namespace std;  
+                       template<class T>  
+                         class A   
+                         {  
+                           public:  
+                            T num1 = 5;  
+                           T num2 = 6;  
+                           void add()  
+                           {  
+                             std::cout << "Addition of num1 and num2 : " << num1+num2<<std::endl;  
+                            }  
+      
+                           };  
+  
+                            int main()  
+                           {  
+                           A<int> d;  
+                           d.add();  
+                            return 0;  
+                            }
+
+                            output of above code is
+                            Addition of num1 and num2 : 11
+
+
+  CLASS TEMPLATE WITH MULTIPLE PARAMETERS
+
+                                   template<class T1, class T2, ......>   
+                                   class class_name  
+                                   {  
+                                   // Body of the class.  
+                                   }  
+                                 
+                                   for example
+
+                                   #include <iostream>  
+                                   using namespace std;  
+                                   template<class T1, class T2>  
+                                   class A   
+                                   {  
+                                   T1 a;  
+                                   T2 b;  
+                                   public:  
+                                   A(T1 x,T2 y)  
+                                  {  
+                                    a = x;  
+                                    b = y;  
+                                  }  
+                                  void display()  
+                                   {  
+                                   std::cout << "Values of a and b are : " << a<<" ,"<<b<<std::endl;  
+                                     }  
+                                    };  
+  
+                                  int main()  
+                                    {  
+                                  A<int,float> d(5,6.5);  
+                                  d.display();  
+                                    return 0;  
+                                     }
+                                     
+                                   output of above code is
+                                   Values of a and b are : 5,6.5
+                         
