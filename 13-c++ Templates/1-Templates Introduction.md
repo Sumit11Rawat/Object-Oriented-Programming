@@ -51,16 +51,16 @@ Function Template
                               int j =3;  
                               float m = 2.3;  
                               float n = 1.2;  
-                              cout<<"Addition of i and j is :"<<add(i,j);  
-
-
-                            output of above code is 
-                            Addition of i and j is :5
-                            Addition of m and n is :3.5
+                              cout<<"Addition of i and j is :"<<add(i,j);                            
                               cout<<'\n';  
                                cout<<"Addition of m and n is :"<<add(m,n);  
                               return 0;  
                               }
+
+                              output of above code is
+                              output of above code is 
+                            Addition of i and j is :5
+                            Addition of m and n is :3.5
 
 Class Templates
 
