@@ -49,10 +49,14 @@ for example
                      prog.cpp:8:8: note:                 void A::show()
 
 
+
+
 What is Virtual Class?
 
 -->Virtual Class is defined by writing a keyword “virtual” in the derived classes, allowing only one copy of data to be copied to Class B and Class C (referring to 
    the above example). It prevents multiple instances of a class appearing as a parent class in the inheritance hierarchy when multiple inheritances are used.
+
+
 
 
 
