@@ -17,6 +17,14 @@ Templates can be represented in two ways:
                 2)Class templates
 
 
+![image](https://github.com/Sumit11Rawat/Object-Oriented-Programming/assets/136540491/be447887-7e6e-40d0-aed8-65eaed7e0635)
+
+
+
+            
+
+
+
 Function Template
 
 --> Generic functions use the concept of a function template. Generic functions define a set of operations that can be applied to the various types of data.
