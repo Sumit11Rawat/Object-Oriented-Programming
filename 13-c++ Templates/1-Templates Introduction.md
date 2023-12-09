@@ -30,8 +30,8 @@ Function Template
                                                              // body of function.  
                                                               }  
                                                               
-                           -->Where Ttype: It is a placeholder name for a data type used by the function. It is used within the function definition. It 
-                                is only a placeholder that the compiler will automatically replace this placeholder with the actual data type.   
+-->Where Ttype: It is a placeholder name for a data type used by the function. It is used within the function definition. It 
+   is only a placeholder that the compiler will automatically replace this placeholder with the actual data type.   
 
 
                          for example  code to add two no using template
