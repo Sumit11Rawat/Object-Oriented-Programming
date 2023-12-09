@@ -48,3 +48,47 @@ for example
                           ^
                      prog.cpp:8:8: note:                 void A::show()
 
+
+What is Virtual Class?
+
+-->Virtual Class is defined by writing a keyword “virtual” in the derived classes, allowing only one copy of data to be copied to Class B and Class C (referring to 
+   the above example). It prevents multiple instances of a class appearing as a parent class in the inheritance hierarchy when multiple inheritances are used.
+
+
+
+Need for Virtual Base Class in C++
+
+-->To prevent the error and let the compiler work efficiently, we’ve to use a virtual base class when multiple inheritances occur. It saves space and avoids ambiguity.
+
+-->When a class is specified as a virtual base class, it prevents duplication of its data members. Only one copy of its data members is shared by all the base classes 
+   that use the virtual base class.
+
+-->If a virtual base class is not used, all the derived classes will get duplicated data members. In this case, the compiler cannot decide which one to execute.
+
+
+for example 
+  
+                                #include <iostream>
+                                 using namespace std;
+                                 class A {
+                                   public:
+                                  A() {
+                                  cout << "Constructor A\n";
+                                  }
+                                  };
+
+                               class B: public virtual A {
+                               };
+
+                               class C: public virtual A {
+                                 };
+
+                               class D: public B, public C {
+                                 };
+
+                               int main() {
+                               D object;
+                                }
+
+    output of above code is
+                             Constructor A
