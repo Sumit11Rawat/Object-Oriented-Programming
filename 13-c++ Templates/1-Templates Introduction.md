@@ -17,8 +17,8 @@ Templates can be represented in two ways:
                 2)Class templates
 
 
-     ![image](https://github.com/Sumit11Rawat/Object-Oriented-Programming/assets/136540491/be447887-7e6e-40d0-aed8- 
-      65eaed7e0635)
+  ![image](https://github.com/Sumit11Rawat/Object-Oriented-Programming/assets/136540491/be447887-7e6e-40d0-aed8- 
+   65eaed7e0635)
 
 
 
