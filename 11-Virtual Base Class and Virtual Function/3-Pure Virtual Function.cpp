@@ -7,7 +7,6 @@
 //     Any class containing one or more pure virtual functions can not be used to define any object. 
 //     For this reason, these classes are known as abstract classes. Classes derived from abstract classes need to implement the pure virtual functions of these classes.
 
-https://media.geeksforgeeks.org/wp-content/cdn-uploads/cpp-binding.png
 
 
 
