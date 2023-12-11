@@ -68,6 +68,7 @@ Late Binding :
 --> Late binding is also called dynamic binding. Late binding occurs when we make implicit or indirect function calls in our program. An example of this is using 
    function pointers or virtual functions when using classes. Here, the function call’s memory reference is not determined at compile-time, but rather at run-time.
 
+--> This can be achieved by declaring a virtual function.
 
                    for example // CPP Program to illustrate late binding 
                                #include<iostream> 
