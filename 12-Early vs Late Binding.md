@@ -61,4 +61,36 @@ EARLY BINDING
     
 
 
+Late Binding :
 
+--> (Run time polymorphism) In this, the compiler adds code that identifies the kind of object at runtime then matches the call with the right function definition
+
+--> Late binding is also called dynamic binding. Late binding occurs when we make implicit or indirect function calls in our program. An example of this is using 
+   function pointers or virtual functions when using classes. Here, the function call’s memory reference is not determined at compile-time, but rather at run-time.
+
+
+                   for example // CPP Program to illustrate late binding 
+                               #include<iostream> 
+                               using namespace std; 
+	
+                               class Base 
+                               { 
+                              public: 
+	                        virtual void show() { cout<<" In Base \n"; } 
+                                 }; 
+	
+                               class Derived: public Base 
+                                 { 
+                              public: 
+	                       void show() { cout<<"In Derived \n"; } 
+                                  }; 
+	
+                                int main(void) 
+                                  { 
+	                       Base *bp = new Derived; 
+	                        bp->show(); // RUN-TIME POLYMORPHISM 
+	                         return 0; 
+                                  } 
+
+                                output of above code is
+				In Derived
