@@ -6,4 +6,5 @@
     It takes place either at compile time or at runtime.
 
 
-      https://media.geeksforgeeks.org/wp-content/cdn-uploads/cpp-binding.png
+  ![image](https://github.com/Sumit11Rawat/Object-Oriented-Programming/assets/136540491/1333ddc5-c475-43b8-b593-f7aa8826d078)
+
