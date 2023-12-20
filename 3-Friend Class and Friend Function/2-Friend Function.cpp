@@ -10,7 +10,7 @@
 //   this rule and allow us to access member functions from outside the class.
 
                 //  FRIEND FUNCTION
-//  friend class can access private and protected members of other classes in which it is declared as a friend.
+//  friend function can access private and protected members of other classes in which it is declared as a friend.
 //    Syntax        class rectangle{
 //                    friend void area
 //                      }
