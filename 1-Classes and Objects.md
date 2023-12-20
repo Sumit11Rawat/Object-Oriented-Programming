@@ -65,13 +65,14 @@ Member Functions in Classes
 
             Inside class definition
             Outside class definition
-                To define a member function outside the class definition we have to use the scope resolution:: operator 
+	    
+          --> To define a member function outside the class definition we have to use the scope resolution:: operator 
                 along with the class name and function name. 
 
 
-                            for example
+               for example
 
-                            // C++ program to demonstrate function 
+                // C++ program to demonstrate function 
                // declaration outside class 
 
                 #include <bits/stdc++.h> 
