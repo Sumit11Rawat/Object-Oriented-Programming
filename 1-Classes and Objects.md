@@ -63,10 +63,10 @@ Member Functions in Classes
                                    
                                    There are 2 ways to define a member function:
 
-                                   Inside class definition
-                                  Outside class definition
-                                                            To define a member function outside the class definition we have to use the scope resolution:: operator 
-                                                            along with the class name and function name. 
+            Inside class definition
+            Outside class definition
+                To define a member function outside the class definition we have to use the scope resolution:: operator 
+                along with the class name and function name. 
 
 
                             for example
